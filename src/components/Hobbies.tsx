@@ -1,9 +1,10 @@
+import DescriptionTemp from "./DescriptionTemp";
+
 const Hobbies = () => {
     return (
-        <div>
-            <h3>Hobbies</h3>
-            <p>Love singing, movies, and fiction. Also adding yoga as part of my life</p>
-        </div>
+        <DescriptionTemp
+            title="Hobbies"
+            description="Love singing, movies, and fiction. Also adding yoga as part of my life" />
     )
 };
 

@@ -1,9 +1,10 @@
+import DescriptionTemp from "./DescriptionTemp";
+
 const DegreeYear = () => {
     return (
-        <div>
-            <h3>Degree and Year</h3>
-            <p>A third year CS student</p>
-        </div>
+        <DescriptionTemp 
+            title="Degree and Year"
+            description="A third year CS student" />
     )
 };
 
